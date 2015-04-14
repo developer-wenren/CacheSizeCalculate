@@ -14,6 +14,7 @@
 		51D890E41ADC8DC2005B84C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51D890E31ADC8DC2005B84C1 /* Images.xcassets */; };
 		51D890E71ADC8DC2005B84C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51D890E51ADC8DC2005B84C1 /* LaunchScreen.xib */; };
 		51D890F31ADC8DC2005B84C1 /* CacheSizeCalculateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D890F21ADC8DC2005B84C1 /* CacheSizeCalculateTests.m */; };
+		51D890FE1ADC8E06005B84C1 /* FileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D890FD1ADC8E06005B84C1 /* FileTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		51D890EC1ADC8DC2005B84C1 /* CacheSizeCalculateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CacheSizeCalculateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D890F11ADC8DC2005B84C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51D890F21ADC8DC2005B84C1 /* CacheSizeCalculateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CacheSizeCalculateTests.m; sourceTree = "<group>"; };
+		51D890FC1ADC8E06005B84C1 /* FileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileTool.h; path = ../FileTool.h; sourceTree = "<group>"; };
+		51D890FD1ADC8E06005B84C1 /* FileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileTool.m; path = ../FileTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		51D890D51ADC8DC2005B84C1 /* CacheSizeCalculate */ = {
 			isa = PBXGroup;
 			children = (
+				51D890FC1ADC8E06005B84C1 /* FileTool.h */,
+				51D890FD1ADC8E06005B84C1 /* FileTool.m */,
 				51D890DA1ADC8DC2005B84C1 /* AppDelegate.h */,
 				51D890DB1ADC8DC2005B84C1 /* AppDelegate.m */,
 				51D890DD1ADC8DC2005B84C1 /* ViewController.h */,
@@ -222,6 +227,7 @@
 				51D890DF1ADC8DC2005B84C1 /* ViewController.m in Sources */,
 				51D890DC1ADC8DC2005B84C1 /* AppDelegate.m in Sources */,
 				51D890D91ADC8DC2005B84C1 /* main.m in Sources */,
+				51D890FE1ADC8E06005B84C1 /* FileTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

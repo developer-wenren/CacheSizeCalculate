@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "FileTool.h"
+
 
 @interface ViewController ()
 
@@ -17,6 +19,28 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+  NSString *cachePath = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory,  NSUserDomainMask, YES)lastObject];
+    
+    NSString *cacheFilePath = [cachePath stringByAppendingPathComponent:@"wrcj.plist"];
+    
+    NSInteger a = [FileTool singleFileSizeAtSinglePath:cacheFilePath];
+    
+    NSLog(@"%ldkb",a/1024);
+    
+    ;
+    
+    NSLog(@"%@",cachePath);
+    
+    NSString *file = [cachePath stringByAppendingPathComponent:@"icons"];
+    
+    
+    float b = [FileTool folderFileSizeAtfolderPath:file];
+    
+
+    NSLog(@"%f",b);
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
